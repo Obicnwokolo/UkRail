@@ -7,7 +7,7 @@ import org.apache.spark.sql.functions._
 object Rides {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
-      .appName("UkRail")
+      .appName("DataTransformations")
       .master("local[*]")
       .getOrCreate()
 
